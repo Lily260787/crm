@@ -1,0 +1,67 @@
+<div id="upFormCompagnyContainer" class="container upFormCompany">
+    <div class="row upFormCompany">
+        <h4>Fiche de modification : société</h4>
+        <form id="upFormCompagny" action="index.php?controller=societe&action=up" method="POST">
+            <div class="col-xs-12">
+                <div class="form-group">
+                    <label class="form-control" for="denomination">ID</label>
+                    <input type="text" name="parm0" class="form-control" id="nom" value="{parm0}" readonly/>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="form-control" for="denomination">Dénomination</label>
+                    <input type="text" name="parm1" class="form-control" id="nom" value="{parm1}"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control" for="cp">Code Postal</label>
+                    <input type="text" name="parm3" class="form-control" id="cp" value="{parm3}"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control" for="tel">Téléphone</label>
+                    <input type="text" name="parm8" class="form-control" id="tel" value="{parm8}"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control" for="siret">SIRET</label>
+                    <input type="text" name="parm5" class="form-control" id="siret" value="{parm5}"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control" for="forme_juridique">Forme juridique</label>
+                    <input type="text" name="parm7" class="form-control" id="forme_juridique" value="{parm7}"/>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <div class="form-group">
+                    <label class="form-control" for="adresse">Adresse</label>
+                    <input type="text" name="parm2" class="form-control" id="adresse" value="{parm2}"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control" for="ville">Ville</label>
+                    <input type="text" name="parm4" class="form-control" id="cp" value="{parm4}"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control" for="dirigeant">Dirigeant</label>
+                    <input type="text" name="parm9" class="form-control" id="dirigeant" value="{parm9}"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control" for="naf">Code NAF</label>
+                    <input type="text" name="parm6" class="form-control" id="naf" value="{parm6}"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control" for="statut">Statut</label>
+                    <input type="text" name="parm10" class="form-control" id="statut" value="{parm10}"/>
+                </div>
+            </div>
+            <div class="col-xs-12">
+                <div class="form-group">
+                    <label class="form-control" for="commentaire">Commentaire</label>
+                    <textarea name="parm11" class="form-control" id="commentaire">{parm11}</textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="form-control" id="validationButton" value="Valider la modification"/>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
